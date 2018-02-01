@@ -1,0 +1,113 @@
+/**
+ * file: style.css
+ * purpose: effects ...
+ **/
+
+@keyframes andersAnd {
+    from {
+        background-color: pink;
+        font-size: 7rem;
+    }
+    to {background-color: yellow;}
+}
+
+@keyframes nummerTo {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+ 
+@keyframes nummerTre {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+}
+
+p {  color: red;
+    -webkit-animation-name: nummerTre; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: nummerTre;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+.bro{
+     width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: nummerTo; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: nummerTo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-left: 40%;
+    
+}
+
+body {
+	background-color: snow;
+}
+
+
+h1 {
+font-family: Amatic SC;
+    font-size: 3rem;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: andersAnd;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.lillebaelt {
+   margin-left: 20%;
+}
+
+
+
+.first {
+	
+}
+
+.second { 
+ 
+}
+
+.third {
+    
+}
+
+.four {
+    
+}
+
+.tekstet{
+    text-align: justify;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.tekstto{
+    text-align: justify;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.teksttre{
+    text-align: justify;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.tekstfire {
+   text-align: justify;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
